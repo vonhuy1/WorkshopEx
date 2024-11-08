@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/2-prerequiste/2.1-hugotheme/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/2-prerequiste/2.1-hugotheme/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/2-prerequiste/2.1-hugotheme/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/2-prerequiste/2.1-hugotheme/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/3-content/3.1-filestructure/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/3-content/3.1-filestructure/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/3-content/3.1-filestructure/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/3-content/3.1-filestructure/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/2-prerequiste/2.2-ide/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/2-prerequiste/2.2-ide/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/2-prerequiste/2.2-ide/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/2-prerequiste/2.2-ide/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/1-introduce/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/1-introduce/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/1-introduce/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/1-introduce/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/3-content/3.2-content/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/3-content/3.2-content/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/3-content/3.2-content/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/3-content/3.2-content/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/2-prerequiste/2.3-snagit/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/2-prerequiste/2.3-snagit/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/2-prerequiste/2.3-snagit/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/2-prerequiste/2.3-snagit/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/2-prerequiste/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/2-prerequiste/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/2-prerequiste/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/2-prerequiste/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/4-workshop/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/4-workshop/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/4-workshop/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/4-workshop/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/3-content/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/3-content/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/3-content/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/3-content/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/2-prerequiste/2.4-activepresenter/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/2-prerequiste/2.4-activepresenter/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/2-prerequiste/2.4-activepresenter/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/2-prerequiste/2.4-activepresenter/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/2-prerequiste/2.5-drawio/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/2-prerequiste/2.5-drawio/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/2-prerequiste/2.5-drawio/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/2-prerequiste/2.5-drawio/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/categories/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="http://localhost:1313/vi/tags/index.html" />
+  </url>
+</urlset>

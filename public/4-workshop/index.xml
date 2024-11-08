@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshop :: AWS System Manager</title>
+    <link>http://localhost:1313/4-workshop/index.html</link>
+    <description>Workshop After completing the steps, we proceed to execute Workshop&#xA;Do the Hand-on Lab once to understand the steps needed. (Note down error steps due to missing (could be IAM Role, Permissions,…) ) Structure for Lab Guide (step by step). This is (probably) also the directory structure of the exercise. Clean up and redo the Lab for the second time. This time record a video (can use Active Presenter) or screenshot each step and number the images in sequence. (can use SnagIt) Write text for Lab Guide. (Leave placeholders for images available) If filming, extract the image from the video (can use VLC Player with Screenshot) and place the image in the specified locations Crop image remove from browser border (If using SnagIt, define fixed capture area remove browser border) Check and format the content with the Notice, add the Attachment (if available)</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/4-workshop/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

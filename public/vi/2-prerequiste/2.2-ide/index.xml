@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tải Visual Studio Code :: AWS System Manager</title>
+    <link>http://localhost:1313/vi/2-prerequiste/2.2-ide/index.html</link>
+    <description>Tổng quan Bạn một IDE nào đó có các plug-ins hỗ trợ các loại ngôn ngữ cho thuận tiện trong việc viết: Visual Studio Code, Atom, Notepad++,… (Người viết guide này đang xài Visual Studio Code). Các plug-ins theo IDE: Nghiễm nhiên sẽ cần plug-ins dành cho Markdown (như Markdown All in One, Markdown TOC,…). Mỗi khi viết 1 file ngôn ngữ gì thì VS Code cũng gợi ý cài cái plug-ins liên quan nên không phải lo lắng Nội dung Truy cập vào Visual Studio Code để tải IDE</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/vi/2-prerequiste/2.2-ide/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

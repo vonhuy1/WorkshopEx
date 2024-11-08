@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Get Visual Studio Code :: AWS System Manager</title>
+    <link>http://localhost:1313/2-prerequiste/2.2-ide/index.html</link>
+    <description>Overview Do you have an IDE that has plug-ins that support different languages ​​for your convenience in writing: Visual Studio Code, Atom, Notepad++,… (The writer of this guide is using Visual Studio Code). Plug-ins by IDE: Of course, plug-ins will be needed for Markdown (like Markdown All in One, Markdown TOC,…). Every time I write a file in any language, VS Code also suggests to install the related plug-ins, so I don’t have to worry Content Go to Visual Studio Code to download the IDE</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/2-prerequiste/2.2-ide/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

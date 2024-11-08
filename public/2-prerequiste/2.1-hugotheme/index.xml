@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Download Hugo Theme :: AWS System Manager</title>
+    <link>http://localhost:1313/2-prerequiste/2.1-hugotheme/index.html</link>
+    <description>Download Hugo Theme Lab guide using Hugo Theme. Visit the homepage Hugo Theme to view overview information Go to Install Hugo page to download Hugo Theme depending on operating system After downloading Hugo Theme successfully You will download Workshop sample to your computer at Workshop After downloading Workshop.zip to your computer, extract it Open folder Workshop</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/2-prerequiste/2.1-hugotheme/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

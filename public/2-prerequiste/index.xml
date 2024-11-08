@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preparation :: AWS System Manager</title>
+    <link>http://localhost:1313/2-prerequiste/index.html</link>
+    <description>Preparation steps Download Hugo Theme Download IDE Download Snagit Download Active Presenter Download Draw.io</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/2-prerequiste/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download Hugo Theme</title>
+      <link>http://localhost:1313/2-prerequiste/2.1-hugotheme/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2-prerequiste/2.1-hugotheme/index.html</guid>
+      <description>Download Hugo Theme Lab guide using Hugo Theme. Visit the homepage Hugo Theme to view overview information Go to Install Hugo page to download Hugo Theme depending on operating system After downloading Hugo Theme successfully You will download Workshop sample to your computer at Workshop After downloading Workshop.zip to your computer, extract it Open folder Workshop</description>
+    </item>
+    <item>
+      <title>Get Visual Studio Code</title>
+      <link>http://localhost:1313/2-prerequiste/2.2-ide/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2-prerequiste/2.2-ide/index.html</guid>
+      <description>Overview Do you have an IDE that has plug-ins that support different languages ​​for your convenience in writing: Visual Studio Code, Atom, Notepad++,… (The writer of this guide is using Visual Studio Code). Plug-ins by IDE: Of course, plug-ins will be needed for Markdown (like Markdown All in One, Markdown TOC,…). Every time I write a file in any language, VS Code also suggests to install the related plug-ins, so I don’t have to worry Content Go to Visual Studio Code to download the IDE</description>
+    </item>
+    <item>
+      <title>Download Snagit</title>
+      <link>http://localhost:1313/2-prerequiste/2.3-snagit/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2-prerequiste/2.3-snagit/index.html</guid>
+      <description>Download Snagit You can download Snagit from Snagit. Or you can refer to other sites Some features of Snagit</description>
+    </item>
+    <item>
+      <title>Download Active Presenter</title>
+      <link>http://localhost:1313/2-prerequiste/2.4-activepresenter/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2-prerequiste/2.4-activepresenter/index.html</guid>
+      <description>Download Snagit You access the page Active Presenter to download to your device. After installing Active Presenter</description>
+    </item>
+    <item>
+      <title>Download Draw.io</title>
+      <link>http://localhost:1313/2-prerequiste/2.5-drawio/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2-prerequiste/2.5-drawio/index.html</guid>
+      <description>Download Snagit You can download Draw.io at Draw.io You can use Draw.io on the web at Draw.io Download the latest AWS icon set Here Draw diagrams in the correct format and style. Refer Here&#xA;Some sample architectures</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tải Hugo Theme :: AWS System Manager</title>
+    <link>http://localhost:1313/vi/2-prerequiste/2.1-hugotheme/index.html</link>
+    <description>Download Hugo Theme Lab guide sử dụng Theme Hugo. Truy cập vào vào trang chủ Hugo Theme để xem thông tin tổng quan Vào trang Install Hugo để tải Hugo Theme tùy thuộc vào hệ điều hành au khi tải Hugo Theme thành công Các bạn sẽ tải Workshop mẫu về máy tại Workshop Sau khi tải Workshop.zip về máy, giải nén Mở thư mục Workshop</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/vi/2-prerequiste/2.1-hugotheme/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First Cloud Journey :: AWS System Manager</title>
+    <link>http://localhost:1313/vi/index.html</link>
+    <description>Tổng quan Trong bài này, hướng dẫn cách viết Lab Guide và tạo Workshop&#xA;Tải và sử dụng theme Hugo Sử dụng Visual Studio Code Sử dụng Snagit Sử dụng Draw.io Nội dung Giới thiệu Các bước chuẩn bị Nội dung Hoàn thành Workshop</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/vi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới thiệu</title>
+      <link>http://localhost:1313/vi/1-introduce/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vi/1-introduce/index.html</guid>
+      <description>Trong bài này, hướng dẫn cách viết Lab Guide và tạo Workshop&#xA;Tải các công cụ, phần mềm hỗ trợ Cách triển khai cấu trúc file Cách viết nội dung Các bước tiến hành hoàn thành Workshop</description>
+    </item>
+    <item>
+      <title>Các bước chuẩn bị</title>
+      <link>http://localhost:1313/vi/2-prerequiste/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vi/2-prerequiste/index.html</guid>
+      <description>Các bước chuẩn bị Tải Hugo Theme Tải IDE Tải Snagit Tải Active Presenter Tải Draw.io</description>
+    </item>
+    <item>
+      <title>Workshop</title>
+      <link>http://localhost:1313/vi/4-workshop/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vi/4-workshop/index.html</guid>
+      <description>Workshop Sau khi hoàn thành các bước, chúng ta tiến hành thực hiện Workshop&#xA;Thực hiện bài Hand-on Lab một lần để nắm các bước cần phải làm. (Ghi chú lại những bước lỗi do thiếu (có thể là IAM Role, Permissions,…)) Lên cấu trúc cho Lab Guide (phân theo từng bước). Đây (có thể) cũng chính là cấu trúc thư mục của bài thực hành. Clean up và thực hiện lại bài Lab lần thứ 2. Lần này quay phim lại (có thể sử dụng Active Presenter) hoặc screenshot từng bước và đánh số thứ tự hình ảnh (có thể dùng SnagIt) Viết phần nội dung text cho Lab Guide. (Để sẵn các placeholder cho hình ảnh) Nếu quay phim thì trích xuất hình ảnh từ video ra (có thể sử dụng VLC Player có mục Screenshot) và đặt hình ảnh vào những vị trí đã xác định. Crop hình ảnh loại bỏ đi khung viền của browser (Nếu sử dụng SnagIt thì xác định vùng chụp cố định bỏ đi khung viền browser) Kiểm tra và format lại nội dung với các Notice, bổ sung các Tập tin đính kèm (nếu có)</description>
+    </item>
+    <item>
+      <title>Nội dung</title>
+      <link>http://localhost:1313/vi/3-content/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vi/3-content/index.html</guid>
+      <description>Nội dung Cấu trúc file Nội dung</description>
+    </item>
+  </channel>
+</rss>

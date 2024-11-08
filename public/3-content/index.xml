@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content :: AWS System Manager</title>
+    <link>http://localhost:1313/3-content/index.html</link>
+    <description>Content File Structure Content</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/3-content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>File structure</title>
+      <link>http://localhost:1313/3-content/3.1-filestructure/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/3-content/3.1-filestructure/index.html</guid>
+      <description>Folder content We make a temporary convention together that we will organize the Lab with 2 maximum levels (eg 2. -&gt; 2.1. corresponding to 2.write-content -&gt; 2.1-Directory structure)&#xA;In each folder will include:&#xA;Secondary folders. File _index.md : Contains English content. File _index.vi.md : Contains Vietnamese content. If you’re just writing a Vietnamese guide, you’ll copy _index.vi.md to another copy and rename it to _index.md. (For later translation)&#xA;Directory static/images This will be the folder containing the images for the Lab Guide. All pictures are included here. Folders for images can be hierarchical for easy image management.</description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>http://localhost:1313/3-content/3.2-content/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/3-content/3.2-content/index.html</guid>
+      <description>Title There is this header at the top of every page to display the title and define the navigation on the Navigation panel on the left side of the page.&#xA;title = &#34;Write content&#34; chapter = false : Leave the default as false. The title above will also display as h1 in the article. weiht: Used to sort the index of the title pre = &#34;&lt;b&gt;2. &lt;/b&gt;&#34; : This is the numbering for the page displayed in Navigation panel on the left. Heading Section We will agree to use the title for the sections in a page will use h4 (####). Table of Contents (TOC) After writing the content (or finishing listing the Headings of a page), we can build Table of Contents (TOC) automatically by plug-in.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content :: AWS System Manager</title>
+    <link>http://localhost:1313/3-content/3.2-content/index.html</link>
+    <description>Title There is this header at the top of every page to display the title and define the navigation on the Navigation panel on the left side of the page.&#xA;title = &#34;Write content&#34; chapter = false : Leave the default as false. The title above will also display as h1 in the article. weiht: Used to sort the index of the title pre = &#34;&lt;b&gt;2. &lt;/b&gt;&#34; : This is the numbering for the page displayed in Navigation panel on the left. Heading Section We will agree to use the title for the sections in a page will use h4 (####). Table of Contents (TOC) After writing the content (or finishing listing the Headings of a page), we can build Table of Contents (TOC) automatically by plug-in.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/3-content/3.2-content/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

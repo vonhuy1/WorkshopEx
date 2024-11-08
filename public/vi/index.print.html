@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi" dir="vi" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.136.5">
+    <meta name="generator" content="Relearn 7.1.1">
+    <meta name="description" content="Làm việc với Amazon System Manager - Session Manager Tổng quan Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.
+Nội dung Giới thiệu Các bước chuẩn bị Tạo kết nối đến máy chủ EC2 Quản lý session logs Port Forwarding Dọn dẹp tài nguyên">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Session Management :: AWS System Manager">
+    <meta name="twitter:description" content="Làm việc với Amazon System Manager - Session Manager Tổng quan Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.
+Nội dung Giới thiệu Các bước chuẩn bị Tạo kết nối đến máy chủ EC2 Quản lý session logs Port Forwarding Dọn dẹp tài nguyên">
+    <meta property="og:url" content="http://localhost:1313/vi/index.html">
+    <meta property="og:site_name" content="AWS System Manager">
+    <meta property="og:title" content="Session Management :: AWS System Manager">
+    <meta property="og:description" content="Làm việc với Amazon System Manager - Session Manager Tổng quan Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.
+Nội dung Giới thiệu Các bước chuẩn bị Tạo kết nối đến máy chủ EC2 Quản lý session logs Port Forwarding Dọn dẹp tài nguyên">
+    <meta property="og:locale" content="vi">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Session Management :: AWS System Manager">
+    <meta itemprop="description" content="Làm việc với Amazon System Manager - Session Manager Tổng quan Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.
+Nội dung Giới thiệu Các bước chuẩn bị Tạo kết nối đến máy chủ EC2 Quản lý session logs Port Forwarding Dọn dẹp tài nguyên">
+    <meta itemprop="wordCount" content="74">
+    <title>Session Management :: AWS System Manager</title>
+    <link href="http://localhost:1313/index.html" rel="alternate" hreflang="x-default">
+    <link href="http://localhost:1313/index.html" rel="alternate" hreflang="en">
+    <link href="http://localhost:1313/vi/index.html" rel="alternate" hreflang="vi">
+    <link href="http://localhost:1313/vi/index.html" rel="canonical" type="text/html" title="Session Management :: AWS System Manager">
+    <link href="/vi/index.xml" rel="alternate" type="application/rss+xml" title="Session Management :: AWS System Manager">
+    <link href="/images/favicon.png?1730866030" rel="icon" type="image/png">
+    <link href="/css/fontawesome-all.min.css?1730866030" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1730866030" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1730866030" rel="stylesheet">
+    <link href="/css/auto-complete.css?1730866030" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1730866030" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1730866030" rel="stylesheet">
+    <link href="/css/fonts.css?1730866030" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1730866030" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1730866030" rel="stylesheet">
+    <link href="/css/theme-relearn-light.css?1730866030" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1730866030" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/print.css?1730866030" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1730866030" rel="stylesheet">
+    <script src="/js/variant.js?1730866030"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Sao chép vào bảng tạm`;
+      window.T_Copied_to_clipboard = `Sao chép vào bảng tạm!`;
+      window.T_Copy_link_to_clipboard = `Sao chép nối kết vào bảng tạm`;
+      window.T_Link_copied_to_clipboard = `Liên kết được sao chép vào bảng tạm!`;
+      window.T_Reset_view = `Đặt lại dạng xem`;
+      window.T_View_reset = `Xem đặt lại!`;
+      window.T_No_results_found = `Không tìm thấy kết quả nào cho "{0}"`;
+      window.T_N_results_found = `{1} kết quả được tìm thấy cho "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print" data-url="/vi/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Mục lục (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#tổng-quan">Tổng quan</a></li>
+        <li><a href="#nội-dung">Nội dung</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Session Management</span><meta itemprop="position" content="1"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/vi/index.print.html" title="In toàn bộ chương (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-left"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/vi/first-chapter/index.html" title="Chương thứ nhất (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Nội dung khác"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable chapter" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="chapter narrow">
+  <header class="headline">
+  </header>
+<div class="article-subheading">Chương 1</div>
+
+<h1 id="session-management">Session Management</h1>
+
+<h1 id="lam-viêc-vơi-amazon-system-manager---session-manager">Làm việc với Amazon System Manager - Session Manager</h1>
+<h3 id="tổng-quan">Tổng quan</h3>
+<p>Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.</p>
+<p><a href="#R-image-6a36eb0109183046835192bb0168b332" class="lightbox-link"><img alt="ConnectPrivate" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/arc-log.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6a36eb0109183046835192bb0168b332"><img alt="ConnectPrivate" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/arc-log.png"></a></p>
+<h3 id="nội-dung">Nội dung</h3>
+<ol>
+<li><a href="1-introduce/">Giới thiệu</a></li>
+<li><a href="2-Prerequiste/">Các bước chuẩn bị</a></li>
+<li><a href="3-Accessibilitytoinstance/">Tạo kết nối đến máy chủ EC2</a></li>
+<li><a href="4-s3log/">Quản lý session logs</a></li>
+<li><a href="5-Portfwd/">Port Forwarding</a></li>
+<li><a href="6-cleanup/">Dọn dẹp tài nguyên</a></li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+          <section>
+            <h1 class="a11y-only">Tiểu mục của Session Management</h1>
+<article class="chapter narrow">
+  <header class="headline">
+  </header>
+<div class="article-subheading">Chương 1</div>
+
+<h1 id="chương-thứ-nhất">Chương thứ nhất</h1>
+
+<p>Đây là chương thứ nhất.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1730866030" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1730866030" defer></script>
+    <script src="/js/theme.js?1730866030" defer></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-158079754-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

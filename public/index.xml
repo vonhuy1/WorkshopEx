@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First Cloud Journey :: AWS System Manager</title>
+    <link>http://localhost:1313/index.html</link>
+    <description>Tổng quan In this tutorial, I will show you how to write Lab Guide and create Workshop&#xA;Download and use Hugo theme Using Visual Studio Code Use Snagit Use Draw.io Nội dung Introduction Preparation steps Content Complete Workshop</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/1-introduce/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/1-introduce/index.html</guid>
+      <description>In this tutorial, I will show you how to write Lab Guide and create Workshop&#xA;Download support tools and software How to implement file structure How to write content Steps to complete Workshop</description>
+    </item>
+    <item>
+      <title>Preparation</title>
+      <link>http://localhost:1313/2-prerequiste/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2-prerequiste/index.html</guid>
+      <description>Preparation steps Download Hugo Theme Download IDE Download Snagit Download Active Presenter Download Draw.io</description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>http://localhost:1313/3-content/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/3-content/index.html</guid>
+      <description>Content File Structure Content</description>
+    </item>
+    <item>
+      <title>Workshop</title>
+      <link>http://localhost:1313/4-workshop/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/4-workshop/index.html</guid>
+      <description>Workshop After completing the steps, we proceed to execute Workshop&#xA;Do the Hand-on Lab once to understand the steps needed. (Note down error steps due to missing (could be IAM Role, Permissions,…) ) Structure for Lab Guide (step by step). This is (probably) also the directory structure of the exercise. Clean up and redo the Lab for the second time. This time record a video (can use Active Presenter) or screenshot each step and number the images in sequence. (can use SnagIt) Write text for Lab Guide. (Leave placeholders for images available) If filming, extract the image from the video (can use VLC Player with Screenshot) and place the image in the specified locations Crop image remove from browser border (If using SnagIt, define fixed capture area remove browser border) Check and format the content with the Notice, add the Attachment (if available)</description>
+    </item>
+  </channel>
+</rss>
